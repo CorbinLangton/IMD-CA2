@@ -1,4 +1,44 @@
 body {
     background-color: dark;
     font-weight: bold;
+    background-image: url(../images/profile-picture.jpg);
+    background-size: 100% 10rem;
+    background-repeat: no-repeat;
+}
+
+.hero-section {
+}
+
+.self-picture {
+    width: 5%;
+    height: 5%;
+}
+
+.first-hover {
+    border-bottom: 1px solid black;
+}
+
+.second-hover {
+    border-bottom: 1px solid black;
+}
+
+.third-hover {
+    border-bottom: 1px solid black;
+}
+.sndyr-proj {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.thrdyr-proj {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.fortyr-proj {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
