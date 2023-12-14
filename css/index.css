@@ -6,6 +6,11 @@ body {
     background-repeat: no-repeat;
 }
 
+ul li::before {
+    content: "\2192";
+    margin-right: 5px;
+}
+
 .hero-section {
 }
 
@@ -14,7 +19,11 @@ body {
     height: 5%;
 }
 
+.education-details {
+}
+
 .first-hover {
+    position: absolute;
     border-bottom: 1px solid black;
 }
 
@@ -25,20 +34,34 @@ body {
 .third-hover {
     border-bottom: 1px solid black;
 }
-.sndyr-proj {
-    display: none;
+
+.fstyr {
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    height: 1px;
+    overflow: hidden;
+}
+
+.fstyr:hover {
+    height: 625px;
+}
+.sndyr{
     opacity: 0;
     transition: opacity 0.3s ease;
 }
 
-.thrdyr-proj {
-    display: none;
-    opacity: 0;
+.thrdyr {
+
+
     transition: opacity 0.3s ease;
 }
 
-.fortyr-proj {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+.frtyr {
+
+}
+
+.hero-section-img {
+    height: 100px;
+    width: 100px;
 }
