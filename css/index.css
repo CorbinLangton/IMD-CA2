@@ -70,8 +70,8 @@ ul li::before {
     -webkit-transition: height 0.5s;
     height: 10px;
     max-height: 375px;
-    border-color: azure;
     overflow: hidden;
+    border-color: azure;
 }
 
 .frtyr:hover {
