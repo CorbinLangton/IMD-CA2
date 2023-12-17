@@ -3,7 +3,9 @@ ul li::before {
     margin-right: 5px;
 }
 
-.hero-section {
+.self-picture {
+    height: 250px;
+    width: 250px;
 }
 
 .hero-card {
@@ -27,7 +29,6 @@ ul li::before {
     transition: height 0.5s ease;
     -webkit-transition: height 0.5s;
     height: 10px;
-    max-height: 600px;
     overflow: hidden;
     border-color: azure;
 }
@@ -41,7 +42,6 @@ ul li::before {
     transition: height 0.5 ease;
     -webkit-transition: height 0.5s;
     height: 10px;
-    max-height: 750px;
     overflow: hidden;
     border-color: azure;
 }
@@ -55,7 +55,6 @@ ul li::before {
     transition: height 0.5s ease;
     -webkit-transition: height 0.5s;
     height: 10px;
-    max-height: 600px;
     overflow: hidden;
     border-color: azure;
 }
@@ -69,11 +68,60 @@ ul li::before {
     transition: height 0.5s ease;
     -webkit-transition: height 0.5s;
     height: 10px;
-    max-height: 375px;
     overflow: hidden;
     border-color: azure;
 }
 
 .frtyr:hover {
     height: 375px;
+}
+
+@media only screen and (max-width: 474px) {
+    .self-picture {
+        max-width: 100px;
+        max-height: 100px;
+        margin-top: 125px;
+    }
+
+    .fstyr:hover {
+        height: 725px;
+    }
+
+    .sndyr:hover {
+        height: 1000px;
+    }
+
+    .thrdyr:hover {
+        height: 900px;
+    }
+
+    .frtyr:hover {
+        height: 540px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 390px) {
+    .self-picture {
+        max-width: 100px;
+        max-height: 100px;
+        margin-top: 125px;
+    }
+
+    .fstyr:hover {
+        height: 900px;
+    }
+
+    .sndyr:hover {
+        height: 1280px;
+    }
+
+    .thrdyr:hover {
+        height: 1100px;
+    }
+
+    .frtyr:hover {
+        height: 700px;
+    }
 }
